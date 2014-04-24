@@ -1,9 +1,8 @@
-rg-app:
+nitrous-test:
   ruby_version: 2.0.0 # 2.1.0, 2.0.0, jruby, rbx, 1.9.3, 1.9.2 or ree-1.8.7
   environment: production # RAILS_ENV
-  monitoring_email: kasia.jarmolkowicz@gmail.com
   domains:
-    - rg-app.shellyapp.com
+    - nitrous-test.shellyapp.com
   servers:
     app1:
       size: large
